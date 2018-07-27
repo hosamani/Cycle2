@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/dou" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:background="#189b8e"
+        android:text="Snow city"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textview9"
+        android:text=" It is a fine place to spend some quality time with your near and dear ones."
+        android:textSize="20sp" />
+
+</RelativeLayout>
